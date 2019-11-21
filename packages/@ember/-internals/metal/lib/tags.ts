@@ -3,7 +3,7 @@ import { isProxy, setupMandatorySetter, symbol } from '@ember/-internals/utils';
 import { EMBER_METAL_TRACKED_PROPERTIES } from '@ember/canary-features';
 import { backburner } from '@ember/runloop';
 import { DEBUG } from '@glimmer/env';
-import { CONSTANT_TAG, createTag, createUpdatableTag, dirty, Tag } from '@glimmer/reference';
+import { CONSTANT_TAG, createTag, createUpdatableTag, dirty, Tag } from '@glimmer/validator';
 import { assertTagNotConsumed } from './tracked';
 
 export const UNKNOWN_PROPERTY_TAG = symbol('UNKNOWN_PROPERTY_TAG');
